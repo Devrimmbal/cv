@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+    /* font-family: 'Barlow Condensed', sans-serif; */
+    /* font-weight: 400; */
+}
+
+body{
+    transition: background-color 0.5s;
+    padding: 20px;
+}
+
+p{
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#document{
+    top: 10px;
+    right: 50px;
+    position: absolute;
+}
+
+.page{
+    max-width: 500px;
+    margin: auto;
+}
+
+.title{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.date{
+    font-size: 14px;
+    font-weight: bold;
+    color: #606060;
+}
+
+ .dark{
+    background-color:#20284a;
+    color: white;
+    transition: background-color 0.5s;;
+}
+.dark > a{
+    color: white !important;
+}
+
+.theme-button{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.container{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.content{
+    margin-top: 4px;
+}
+
+.project-content{
+    margin-bottom: 12px;
+}
+
+#projects > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    min-width: 100px;
+    background-color: aqua;
+    position: relative;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#projects > li > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2px;
+    background-color: red;
+}
+
+#projects > li > ul > li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    margin: 2px;
+    padding: 6px;
+}
+
+.mt-4{
+    margin-top: 4px
+}

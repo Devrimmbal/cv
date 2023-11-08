@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="tr" translate="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&family=IBM+Plex+Sans:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!--FONTS-->
+    <script src="./assets/index.js"></script>
+
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <img src="./assets/db.png" alt="DB" width="32px" height="32px" />
+    <img id="document" src="./assets/svg/document.svg" alt="PDF" width="30px" height="30px" onclick="openPdf()" />
+
+    <img id="dark" class="theme-button" src="./assets/svg/dark.svg" alt="DARK MODE" width="30px" height="30px"
+        onclick="toggleDarkMode()" />
+
+    <img id="light" class="theme-button" src="./assets/svg/light.svg" alt="LIGHT MODE" width="30px" height="30px"
+        onclick="toggleDarkMode()" />
+
+    <div class="page" id="content">
+        <h1>DEVRİM BAL</h1>
+        <h2>FrontEnd Developer</h2>
+
+        <p>7 yıllık çalışma hayatımda, başlangıçta Full Stack olarak çalıştım. Uzun süredir ise
+            Front-End tarafında görev almaktayım. Bu süreçte Web üzerine kendimi geliştirdim.
+            Şu an Web ve Mobil alanlarında çalışmalarıma devam etmekteyim.
+        </p>
+
+        <!--EXPERIENCE-->
+        <section class="container">
+            <div class="title">DENEYİM</div>
+            <div class="content">
+                <div class="date">2022 - Günümüz</div>
+                <p> Mars Athletic | Senior FrontEnd Developer</p>
+            </div>
+
+            <div class="content">
+                <div class="date">2017 - 2022</div>
+                <p> Aritatürk | FullStack - FrontEnd Developer</p>
+            </div>
+        </section>
+        <!--EXPERIENCE-->
+
+
+        <!--PROJECTS-->
+        <section class="container project-container">
+            <div class="title">PROJELER</div>
+            <div class="content">
+                <div class="project-content">
+                    <b>
+                        <p><a href="https://uyeol.macfit.com/" target="_blank">OLS</a></p>
+                    </b>
+                    <p>
+                        Tüm MAC/One ve MAC/Fit'lerin, kulüp ve paketlerin listelenip ödeme yapılarak üyelik alınan bir
+                        web sitesidir. FrontEnd tarafında görev aldım
+                    </p>
+                </div>
+                <div class="project-content">
+                    <b>
+                        <p><a href="https://portal.macfit.com.tr/" target="_blank">PORTAL</a></p>
+                    </b>
+                    <p>
+                        MAC/One ve MAC/Fit üyelerinin giriş yapıp, "Kişisel Bilgileri", "Üyelik Bilgilerinin", "Fatura
+                        Bilgileri", "Ödeme Bilgileri", "Dondurma Bilgileri", ... vb alt başlıkları görüntüleyebildiği ve
+                        değişiklik
+                        yapabildiği web sitesidir.
+                    </p>
+                </div>
+                <div class="project-content">
+                    <b>
+                        <p>OLYMPUS</p>
+                    </b>
+                    <p>
+                        Potansiyel Müşterilerin yönetildiği, telefon ile aranıp randevu verildiği, görev atanabildiği,
+                        Kulüp Müdürü, Satış Temsilcisi, ... vb kişilerin kullandığı yönetim panelidir.
+                    </p>
+                </div>
+                <div class="project-content">
+                    <b>
+                        <p>MPI Yönetim Paneli</p>
+                    </b>
+                    <p>
+                        Milli Piyango İdaresi "Eşya Piyangosu" için Yönetim panelidir. Bu
+                        panel üzerinden Piyango oluşturulup çekilişler sonuçlandırılmaktadır. Muhasebe departmanları
+                        için gerekli dokümanlar oluşturulup çıktı alınabilir.
+                    </p>
+                </div>
+
+                <div class="project-content">
+                    <b>
+                        <p><a href="https://wettarena.de" target="_blank">Wettarena Affiliates / Terminal / Mobile</a>
+                        </p>
+                    </b>
+                    <p>
+                        Almanyadaki müşterimiz için Bahis yazılımı ürettik. Bayileri, Müşterileri,
+                        Kasiyerleri, Terminalleri, ... vb bağlı olan tüm sistemleri yönetmek ve bu
+                        sistemlerin tüm hareketlerini takip edebilecek bir yönetim paneli yazılımı
+                        ürettik. Müşterilerin “Canlı Bahis” oynayıp tüm süreçleri yönetebileceği
+                        web sitesidir.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        <!--PROJECTS-->
+
+        <!--EDUCATION-->
+        <section class="container education-container">
+            <div class="title">EĞİTİM</div>
+            <div class="content">
+                <div class="date">2012 – 2016</div>
+                <p> İstanbul Üniversitesi – Fen Fakültesi – Astronomi ve Uzay Bilimleri</p>
+            </div>
+        </section>
+        <!--EDUCATION-->
+
+        <!--CERTIFICATES-->
+
+        <section class="container certificate-container">
+            <div class="title">SERTİFİKALAR</div>
+
+            <div class="content">
+                <div class="date">2022 - 2022</div>
+                <p>Projera - Agile ve Scrum Eğitimi</p>
+            </div>
+            <div class="content">
+                <div class="date">2016 - 2017</div>
+                <p>Bilge Adam NBUY Programı</p>
+            </div>
+        </section>
+        <!--CERTIFICATES-->
+
+        <!--SKILLS - LANGUAGES-->
+        <section class="container skills-container">
+            <div class="title">YETENEKLER - TEKNOLOJİLER</div>
+
+            <div class="content">
+                <p>ANGULAR</p>
+                <p>HTML, CSS, JS</p>
+                <p>TYPESCRIPT</p>
+                <p>.NET</p>
+                <p>MS SQL</p>
+                <p>C#</p>
+            </div>
+        </section>
+        <!--SKILLS - LANGUAGES-->
+
+        <ul id="projects"></ul>
+    </div>
+
+
+
+</body>
+
+</html>
