@@ -73,7 +73,7 @@ a {
 
 .container {
     margin-top: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 30px;
 }
 
 .content {
@@ -81,7 +81,7 @@ a {
 }
 
 .project-content {
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 .mt-4 {
